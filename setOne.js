@@ -1,13 +1,13 @@
 ////////// PROBLEM 1 //////////
 
 // ***** Do not edit the code below *****
-// function findGrape (arr) {
-//     for(let i=0; i<arr.length; i++) {
-//         if(arr[i].color === "purple") {
-//             return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
-//         } 
-//     }
-// }
+function findGrape (arr) {
+    for(let i=0; i<arr.length; i++) {
+        if(arr[i].color === "purple") {
+            return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
+        } 
+    }
+}
 // ***** Do not edit the code above *****
 
 /*
@@ -16,23 +16,23 @@ The code above is an example of 'function declaration.' Please re-write the func
 
 // RE-WRITE THE ABOVE FUNCTION IN 'FUNCTION EXPRESSION' SYNTAX HERE.
 
-// const findGrape = function (arr){
-//     for(let i=0; i<arr.length; i++) {
-//         if(arr[i].color === "purple") {
-//             return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
-//         } 
-//     }
-// }
+const findGrape = function (arr){
+    for(let i=0; i<arr.length; i++) {
+        if(arr[i].color === "purple") {
+            return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
+        } 
+    }
+}
 
 // RE-WRITE THE ABOVE FUNCTION IN 'ARROW FUNCTION' SYNTAX HERE.
 
-// const findGrape = (arr) =>{
-//     for(let i=0; i<arr.length; i++) {
-//         if(arr[i].color === "purple") {
-//             return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
-//         } 
-//     }
-// }
+const findGrape = (arr) =>{
+    for(let i=0; i<arr.length; i++) {
+        if(arr[i].color === "purple") {
+            return console.log(`The fruit with index ${arr.indexOf(arr[i])} is a grape`)
+        } 
+    }
+}
 
 ////////// PROBLEM 2 //////////
 /*
